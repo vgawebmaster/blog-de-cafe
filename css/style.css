@@ -340,11 +340,12 @@ padding:5rem;
 
 .campo{
 display: block;
-
+font-size: inherit;
 }
 
 .campo__label{
  display: inline-block; 
+ 
 }
 
 .campo__field{
