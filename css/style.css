@@ -16,8 +16,8 @@ font-size: 62.5; /*1rem  = 10px*/
 }
 
 *, 
-*::after,
-*::before{
+*:after,
+*:before{
 box-sizing: inherit;
 
 }
@@ -45,6 +45,7 @@ a {
 
 h1,h2,h3,h4{
 font-family: var(--fuenteHeading);
+line-height: 2;
 
 }
 
@@ -66,7 +67,7 @@ h4{
 
 img{
 max-width: 100%;
-height: auto;
+/* height: auto; */
 }
 
 /*Utilidades*/
@@ -172,7 +173,7 @@ border-bottom: 1px solid var(--gris);
 margin-bottom: 2rem;
 }
 
-.entrada:last-child{
+.entrada:last-of-type{
   border: none;
   margin-bottom: 0;
 }
