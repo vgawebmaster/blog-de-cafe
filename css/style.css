@@ -339,19 +339,10 @@ padding:5rem;
 }
 
 .campo{
-display: block;
-margin-bottom: 2rem;
+
+margin-bottom: 1rem;
 }
 
-.campo__label{
- display: inline-block; 
- 
-}
-
-.campo__field{
-
-  display: block;
-}
 
 @media (min-width: 768px) {
   .campo{
