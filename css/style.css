@@ -338,6 +338,20 @@ width: 95%;
 padding:5rem;
 }
 
+.campo{
+display: block;
+
+}
+
+.campo__label{
+ display: inline-block; 
+}
+
+.campo__field{
+
+  display: block;
+}
+
 @media (min-width: 768px) {
   .campo{
     display: flex;
