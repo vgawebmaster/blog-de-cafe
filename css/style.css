@@ -338,7 +338,7 @@ width: 95%;
 padding:5rem;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .campo{
     display: flex;
     margin-bottom: 2rem;
@@ -361,5 +361,5 @@ padding:5rem;
 .campo__field--textarea{
 height: 20rem;
 
-}
+} */
 
