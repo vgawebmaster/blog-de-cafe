@@ -340,7 +340,7 @@ padding:5rem;
 
 .campo{
 display: block;
-font-size: inherit;
+margin-bottom: 2rem;
 }
 
 .campo__label{
@@ -356,7 +356,7 @@ font-size: inherit;
 @media (min-width: 768px) {
   .campo{
     display: flex;
-    margin-bottom: 2rem;
+
     
     }
     .campo__label{
